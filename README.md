@@ -1,52 +1,52 @@
-##TargetNUCËµÃ÷
+##TargetNUCè¯´æ˜
 
-TargetNUCÊÇÄ¿Ç°ºËĞ¡Ìå¶¨Î»×î¾«È·µÄ·ÖÀàÆ÷£¬ÏÂÃæ¸ø³öÊı¾İ¼¯ºÍÔ´ÂëÒÔ¼°Ê¹ÓÃ½Ì³Ì¡£
+TargetNUCæ˜¯ç›®å‰æ ¸å°ä½“å®šä½æœ€ç²¾ç¡®çš„åˆ†ç±»å™¨ï¼Œä¸‹é¢ç»™å‡ºæ•°æ®é›†å’Œæºç ä»¥åŠä½¿ç”¨æ•™ç¨‹ã€‚
 
-####1.Êı¾İ¼¯
+####1.æ•°æ®é›†
 
-1.H.sapiens  2273 ¸öÕıÑù±¾  2300¸ö¸ºÑù±¾
+1. H.sapiens  2273 ä¸ªæ­£æ ·æœ¬  2300ä¸ªè´Ÿæ ·æœ¬
 
-2. C.elegans  2567¸öÕıÑù±¾   2608¸ö¸ºÑù±¾
+2. C.elegans  2567ä¸ªæ­£æ ·æœ¬   2608ä¸ªè´Ÿæ ·æœ¬
 
-3. D.melanogaster. 2900¸öÕıÑù±¾  2850¸ºÑù±¾
+3. D.melanogaster. 2900ä¸ªæ­£æ ·æœ¬  2850è´Ÿæ ·æœ¬
 
-ËùÓĞÑù±¾ÖĞDNAĞòÁĞ³¤¶È¶¼ÊÇ147bp¡£
+æ‰€æœ‰æ ·æœ¬ä¸­DNAåºåˆ—é•¿åº¦éƒ½æ˜¯147bpã€‚
 
-Ñù±¾µÄÏÂÔØµØÖ·ÔÚ£ºhttp://lin.uestc.edu.cn/server/iNucPseKNC/dataset
+æ ·æœ¬çš„ä¸‹è½½åœ°å€åœ¨ï¼šhttp://lin.uestc.edu.cn/server/iNucPseKNC/dataset
 
-´¦ÀíºÃµÄÊı¾İ¼¯²Î¿¼¡°Êı¾İ¼¯¡±ÎÄ¼ş¼Ğ¡£
+å¤„ç†å¥½çš„æ•°æ®é›†å‚è€ƒâ€œæ•°æ®é›†â€æ–‡ä»¶å¤¹ã€‚
 
-####2´úÂëËµÃ÷
+####2ä»£ç è¯´æ˜
 
-1£®ÏµÍ³»·¾³
+* ç³»ç»Ÿç¯å¢ƒ
 
-Èí¼ş£º python2.7  numpy   scipy  scikit-learn
+è½¯ä»¶ï¼š python2.7  numpy   scipy  scikit-learn
 
-2.ÌØÕ÷ÌáÈ¡´úÂë
+* ç‰¹å¾æå–ä»£ç 
 
-²Î¿¼¡°Ô´´úÂëÎÄ¼ş¼Ğ¡±
+å‚è€ƒâ€œæºä»£ç æ–‡ä»¶å¤¹â€
 
-1>cksnap_feature_extract.py ÓÃÓÚÌáÈ¡composition of k-spaced nucleic acid pairs ÌØÕ÷¡£ 
++ cksnap_feature_extract.py ç”¨äºæå–composition of k-spaced nucleic acid pairs ç‰¹å¾ã€‚ 
 
-2>psdp_feature_extract.py  ÓÃÓÚÌáÈ¡ postion-specific deoxyribotide propensity ÌØÕ÷¡£
++ psdp_feature_extract.py  ç”¨äºæå– postion-specific deoxyribotide propensity ç‰¹å¾ã€‚
 
-3>combine_feature.py ÓÃÓÚ½«Á½¸öÌØÕ÷ºÏ²¢
++ combine_feature.py ç”¨äºå°†ä¸¤ä¸ªç‰¹å¾åˆå¹¶
 
-4>jack_knife_test.py ÓÃÓÚ×öjackknife²âÊÔ£¬ Ê¹ÓÃµÄÊÇsvm·ÖÀàÆ÷£¬²ÎÊıÑ¡È¡Ê¹ÓÃµÄÊÇlibsvm¡£
++ jack_knife_test.py ç”¨äºåšjackknifeæµ‹è¯•ï¼Œ ä½¿ç”¨çš„æ˜¯svmåˆ†ç±»å™¨ï¼Œå‚æ•°é€‰å–ä½¿ç”¨çš„æ˜¯libsvmã€‚
 
-5>k_validate_test.py ÓÃÓÚk-ÖØ½»²æÑéÖ¤
++ k_validate_test.py ç”¨äºk-é‡äº¤å‰éªŒè¯
 
-×¢Ã÷£ºcksnapÌØÕ÷ĞèÒªÏÈÕı¹æ»¯ÔÙºÍpsdpÌØÕ÷ºÏ²¢£¬Õı¹æ»¯µÄ´úÂëÒ²ÔÚcksnap_feature_extract.pyÀïÃæ¡£CksnapµÄkÄ¬ÈÏÑ¡Îª10.
+æ³¨æ˜ï¼šcksnapç‰¹å¾éœ€è¦å…ˆæ­£è§„åŒ–å†å’Œpsdpç‰¹å¾åˆå¹¶ï¼Œæ­£è§„åŒ–çš„ä»£ç ä¹Ÿåœ¨cksnap_feature_extract.pyé‡Œé¢ã€‚Cksnapçš„ké»˜è®¤é€‰ä¸º10.
 
-####3.ÆäËûËµÃ÷
+####3.å…¶ä»–è¯´æ˜
 
-1. ²ÎÊıÑ¡Ôñ£º  
+1. å‚æ•°é€‰æ‹©ï¼š  
 
-H.sapiensÊı¾İ¼¯ÉÏ cksnapÌØÕ÷ÖĞKÑ¡15
+- H.sapiensæ•°æ®é›†ä¸Š cksnapç‰¹å¾ä¸­Ké€‰15
 
-C.elegansÊı¾İ¼¯ÉÏcksnapÌØÕ÷ÖĞKÑ¡10
+- C.elegansæ•°æ®é›†ä¸Šcksnapç‰¹å¾ä¸­Ké€‰10
 
-D.melanogasterÊı¾İ¼¯ÉÏcksnapÌØÕ÷ÖĞKÑ¡10
+- D.melanogasteræ•°æ®é›†ä¸Šcksnapç‰¹å¾ä¸­Ké€‰10
           
 
 
