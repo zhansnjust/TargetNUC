@@ -1,8 +1,8 @@
-##TargetNUC说明
+## TargetNUC说明
 
 TargetNUC是目前核小体定位最精确的分类器，下面给出数据集和源码以及使用教程。
 
-####1.数据集
+#### 1.数据集
 
 1. H.sapiens  2273 个正样本  2300个负样本
 
@@ -16,7 +16,7 @@ TargetNUC是目前核小体定位最精确的分类器，下面给出数据集�
 
 处理好的数据集参考“数据集”文件夹。
 
-####2代码说明
+#### 2.代码说明
 
 * 系统环境
 
@@ -24,7 +24,7 @@ TargetNUC是目前核小体定位最精确的分类器，下面给出数据集�
 
 * 特征提取代码
 
-参考“源代码文件夹”
+
 
 + cksnap_feature_extract.py 用于提取composition of k-spaced nucleic acid pairs 特征。 
 
@@ -38,7 +38,7 @@ TargetNUC是目前核小体定位最精确的分类器，下面给出数据集�
 
 注明：cksnap特征需要先正规化再和psdp特征合并，正规化的代码也在cksnap_feature_extract.py里面。Cksnap的k默认选为10.
 
-####3.其他说明
+#### 3.其他说明
 
 1. 参数选择：  
 
@@ -47,7 +47,7 @@ TargetNUC是目前核小体定位最精确的分类器，下面给出数据集�
 - C.elegans数据集上cksnap特征中K选10
 
 - D.melanogaster数据集上cksnap特征中K选10
-          
 
-
+#### 4.webserver
+iNuc-CKSNAPSDP.rar 压缩包是 基于JAVAWEB技术构建的核小体定位服务，压缩后放在tomcat服务器下，直接就可以运行。界面如下：  
 
