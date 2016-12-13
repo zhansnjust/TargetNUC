@@ -49,7 +49,5 @@ TargetNUC是目前核小体定位最精确的分类器，下面给出数据集�
 - D.melanogaster数据集上cksnap特征中K选10
 
 #### 4.webserver
-iNuc-CKSNAPSDP.rar 压缩包是 基于JAVAWEB技术构建的核小体定位服务，压缩后放在tomcat服务器下，直接就可以运行。界面如下：  
-![](https://github.com/zhansnjust/TargetNUC/blob/master/dataset/pic/1.png)  
-![](https://github.com/zhansnjust/TargetNUC/blob/master/dataset/pic/2.png)
+iNuc-CKSNAPSDP.rar 压缩包是 基于JAVAWEB技术构建的核小体定位服务，压缩后放在tomcat服务器下，直接就可以运行
 
